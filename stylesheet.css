@@ -784,3 +784,354 @@ section{
         opacity: 1;
     }
 }
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media (max-width: 768px) {
+
+    /* Header */
+    .header {
+        padding: 15px 5%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+
+    /* Home */
+    .home {
+        height: auto;
+        min-height: 100vh;
+        padding: 130px 6% 60px;
+        flex-direction: column-reverse;
+        text-align: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .home-content {
+        max-width: 100%;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .home-img {
+        width: 100%;
+    }
+
+    .home-img img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .home-sci a {
+        width: 38px;
+        height: 38px;
+        margin: 20px 5px;
+    }
+
+
+    /* About */
+    .about {
+        min-height: auto;
+        padding: 80px 6%;
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .about-img {
+        width: 100%;
+    }
+
+    .about-img img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-text h2 {
+        font-size: 42px;
+    }
+
+    .about-text h4 {
+        font-size: 23px;
+    }
+
+    .about-text p {
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+
+    /* Services */
+    #services {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .container {
+        padding: 60px 6%;
+    }
+
+    .sub-title {
+        font-size: 42px;
+        padding-bottom: 30px;
+    }
+
+    .services-list {
+        grid-template-columns: 1fr;
+        gap: 25px;
+        margin-top: 30px;
+    }
+
+    .services-list div {
+        padding: 30px;
+    }
+
+    .services-list div h2 {
+        font-size: 22px;
+    }
+
+    .services-list div p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+
+    /* Skills */
+    section {
+        width: 100%;
+    }
+
+    .container1 {
+        width: 100%;
+        min-height: auto;
+        padding: 30px 6%;
+    }
+
+    .heading1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+
+    .Technical-bars .bar {
+        margin: 30px 0;
+    }
+
+    .Technical-bars .bar .info span {
+        font-size: 16px;
+    }
+
+    .skills-section {
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 6%;
+    }
+
+    .skills-section .container1 {
+        width: 100%;
+    }
+
+
+    /* Professional Skills */
+    .radial-bars {
+        width: 100%;
+    }
+
+    .radial-bars .radial-bar {
+        width: 50%;
+        height: 160px;
+    }
+
+    .radial-bars .radial-bar svg {
+        width: 110px;
+        height: 140px;
+    }
+
+
+    /* Projects */
+    #Portfolio {
+        width: 100%;
+        padding: 70px 6%;
+    }
+
+    .main-text h2 {
+        font-size: 42px;
+        margin-bottom: 35px;
+    }
+
+    .Portfolio-content {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .row img {
+        width: 100%;
+        height: auto;
+        min-height: 220px;
+        object-fit: contain;
+    }
+
+    .layer {
+        padding: 15px;
+    }
+
+    .layer h5 {
+        font-size: 21px;
+        margin-bottom: 10px;
+    }
+
+    .layer p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+
+    /* Contact */
+    .contact {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 70px 6%;
+        margin-top: 30px;
+    }
+
+    .contact-text h2 {
+        font-size: 48px;
+    }
+
+    .contact-text h4 {
+        font-size: 20px;
+    }
+
+    .contact-text p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .contact-form form input,
+    .contact-form form textarea {
+        width: 100%;
+    }
+
+    .contact-form textarea {
+        height: 180px;
+    }
+
+    .contact-form form .send {
+        padding: 12px 45px;
+    }
+
+
+    /* Footer */
+    .last-text p {
+        font-size: 13px;
+        padding: 20px 10px;
+        margin-top: 30px;
+    }
+
+    /* Top button */
+    .top {
+        right: 15px;
+        bottom: 15px;
+    }
+}
+
+
+/* Smaller Phones */
+@media (max-width: 480px) {
+
+    .navbar a {
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .home {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .home-content h1 {
+        font-size: 34px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .home-content p {
+        font-size: 15px;
+    }
+
+    .home-img img {
+        width: 190px;
+        height: 190px;
+    }
+
+    .about-text h2 {
+        font-size: 36px;
+    }
+
+    .sub-title {
+        font-size: 36px;
+    }
+
+    .main-text h2 {
+        font-size: 36px;
+    }
+
+    .radial-bars .radial-bar {
+        width: 100%;
+        height: 170px;
+    }
+
+    .services-list div {
+        padding: 25px;
+    }
+
+    .layer p {
+        font-size: 12px;
+    }
+
+    .contact-text h2 {
+        font-size: 40px;
+    }
+}
